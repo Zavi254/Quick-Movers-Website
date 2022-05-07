@@ -10,4 +10,35 @@
         background-position: center center;
         height: 100vh;
 }
-
+ul{
+    display: flex;
+    justify-content: center;
+    font-family: 'Adamina', serif;
+    width: 100%;
+}
+ul > li{
+    list-style-type: none;
+    margin-left: 60px;
+    margin-top: 40px;
+    font-size: 1.1rem;
+}
+ul > li > a{
+    color: #fff;
+    text-decoration:none;
+}
+#logInButton{
+    background-color: #FAFF00;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    color: #000000;
+    font-weight: lighter;
+}
+#signUpButton{
+    background-color: #000000;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #FAFF00;
+    font-weight: lighter;
+    padding-bottom: 5px;
+}
