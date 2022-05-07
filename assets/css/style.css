@@ -84,11 +84,10 @@ ul > li > a{
     flex-direction: column;
     justify-content: center;
 }
-.cutTheHassleBorder{
+.borderGradient{
     border: 2px solid red;
     width: 150px;
     margin-bottom: 10px;
-    /* border-image: linear-gradient(to right, #FAFF00 , #000000); */
 }
 .cutTheHassleword > h2{
     font-size: 2.7rem;
@@ -115,4 +114,7 @@ ul > li > a{
 }
 #arrowRight{
     font-size: 2rem;
+}
+#ourTopMovers{
+    background-color: lightgrey;
 }
