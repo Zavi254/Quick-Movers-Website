@@ -12,7 +12,9 @@
         background-position: center center;
         background-attachment: fixed;
         height: 100vh;
+        margin-bottom: 50px;
 }
+
 
 ul{
     display: flex;
@@ -66,4 +68,32 @@ ul > li > a{
     font-family: 'Poppins', sans-serif;
     margin-left: 90px;
     line-height: 1.1;
+}
+/* Cut The Hassle Section */
+#cutTheHassle{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.cutTheHassleImage{
+    width: 50%;
+}
+.cutTheHassleword{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cutTheHassleBorder{
+    border: 2px solid red;
+    width: 100px;
+    margin-bottom: 10px;
+}
+.cutTheHassleword > h2{
+    font-size: 2.7rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.cutTheHassleword > p{
+    margin-bottom: 40px;
 }
