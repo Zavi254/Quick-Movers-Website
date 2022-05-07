@@ -3,24 +3,29 @@
     margin: 0;
     padding: 0;
 }
+/* Header Section */
+
 #bg-image{
         background-image: url('../img/moving\ 1.png');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
+        background-attachment: fixed;
         height: 100vh;
 }
+
 ul{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     font-family: 'Adamina', serif;
+    gap: 50px;
+    padding-right: 200px;
     width: 100%;
 }
 ul > li{
     list-style-type: none;
-    margin-left: 60px;
     margin-top: 40px;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 ul > li > a{
     color: #fff;
@@ -41,4 +46,24 @@ ul > li > a{
     color: #FAFF00;
     font-weight: lighter;
     padding-bottom: 5px;
+}
+.contentInsideTheHeader{
+    margin-top: 10%;
+}
+.yellowHeading{
+    color: #FAFF00;
+    font-family: 'Adamina', serif;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 40px;
+    margin-left: 90px;
+    line-height: 1.1;
+}
+.contentUnderYellowHeading{
+    font-size: 2rem;
+    font-weight: 500;
+    color: lightgrey;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 90px;
+    line-height: 1.1;
 }
