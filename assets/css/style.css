@@ -74,7 +74,9 @@ ul > li > a{
     display: flex;
     justify-content: space-between;
     gap: 50px;
+    margin-bottom: 60px;
 }
+
 .cutTheHassleImage{
     width:40%;
 }
@@ -116,5 +118,56 @@ ul > li > a{
     font-size: 2rem;
 }
 #ourTopMovers{
-    background-color: lightgrey;
+    background-color: rgba(245, 245, 245, 255);
+    padding-top: 100px;
+}   
+.ourTopMoversCards{
+    display: flex;
+    gap: 40px;
+    margin-top: 20px;
+    justify-content: center;
+    padding: 10px;
+}
+.card{
+    flex-basis:20%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.card > p {
+    font-size: 1.3rem;
+    padding:23px ;
+}
+.card > img{
+    width: 100%;
+    height: auto;
+}
+.cardNumbers{
+    border-top: 0.5px solid grey;
+}
+.cardNumbers > span{
+    display: inline-block;
+    padding-left: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    text-align: center;
+}
+.cardBorder{
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+#ourTopMovers > h1{
+    font-size: 2.7rem;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    font-weight: 400;
+    font-family: 'Adamina', serif;
+}
+.borderGradient2{
+    border: 2px solid red;
+    width: 150px;
+    border: 2px solid red;
+    width: 150px;
+    margin-left: 150px;
+
 }
