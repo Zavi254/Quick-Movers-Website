@@ -53,9 +53,11 @@ ul > li > a{
     font-family: 'Poppins', sans-serif;
     margin-top: 10px;
 }
+main{
+    background-color: #f5f5f5;
+}
 /* Contact Form Section */
 #contactSection{
-    background-color: #f5f5f5;
     padding-top: 90px;
 }
 #contactFormSection{
@@ -131,7 +133,6 @@ form > input, #learnMore{
     margin-left: 90px;
     width: 55%;
     gap: 10px;
-    background-color: #f5f5f5;
 }
 #littleImagesSection > img{
     min-width:5px;
@@ -139,32 +140,31 @@ form > input, #learnMore{
 
 /* Details Section */
 #detailsSection{
-    margin-top: 70px;
-    background-color: #f5f5f5;
+    margin-top: 100px;
+    margin-bottom: 100px;
     width: 55%;
     margin-left: 90px;
     border: 1px solid red;
     border-radius: 7px;
+    background-color: #fff;
+    padding-bottom:;
 }
 #detailsSection > h2{
     padding-top: 20px;
     padding-bottom: 20px;
     margin-left: 20px;
 }
+.vl{
+    border-right: 1px solid grey;
+    height: 26px;
+}
 .spanContainer{
     display: flex;
     justify-content: space-around;
 }
-.spanContainer > span{
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-left: 40px;
-    border: 1px solid red;
-}
 
 /* Similar Listings Section */
 #similarListings{
-    background-color: #f5f5f5;
     padding-top: 50px;
     padding-bottom: 70px;
 }
@@ -218,6 +218,36 @@ form > input, #learnMore{
     margin-bottom: 10px;
     margin-top: 50px;
 }
+/* Description Section */
+#descriptionSection{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    background-color: #fff;
+    width: 55%;
+    margin-left: 90px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 13px #D3D3D3;
+    padding: 20px;
+    font-family: 'Actor', sans-serif;
+}
+#descriptionSection > h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+#descriptionSection > p{
+    margin-top:40px;
+    margin-bottom: 40px;
+    color: grey;
+}
+
+
+
+
+/* Features Section */
+
+
+
 /* Footer Section */
 #secondPageFooter{
     background-color: #1c1302;
