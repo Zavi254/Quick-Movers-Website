@@ -144,10 +144,8 @@ form > input, #learnMore{
     margin-bottom: 100px;
     width: 55%;
     margin-left: 90px;
-    border: 1px solid red;
     border-radius: 7px;
     background-color: #fff;
-    padding-bottom:;
 }
 #detailsSection > h2{
     padding-top: 20px;
@@ -245,8 +243,29 @@ form > input, #learnMore{
 
 
 /* Features Section */
-
-
+#featuresSection{
+    width: 60%;
+    margin-left: 90px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 13px #D3D3D3;
+    padding: 20px;
+    font-family: 'Actor', sans-serif;
+    background-color: #fff;
+}
+.ticksFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.ticksFlex > p{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.ticksFlex > i{
+    margin-top: 20px;
+}
+.fa-circle-check{
+    color: #ffac12;
+}
 
 /* Footer Section */
 #secondPageFooter{
