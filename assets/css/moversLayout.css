@@ -130,5 +130,38 @@ form > input, #learnMore{
     font-size: 2.5rem;
 }
 /* little Images Section */
+#littleImagesSection{
+    display: flex;
+    margin-left: 90px;
+    width: 55%;
+    gap: 10px;
+    background-color: #f5f5f5;
+}
+#littleImagesSection > img{
+    min-width:5px;
+}
 
-
+/* Details Section */
+#detailsSection{
+    margin-top: 70px;
+    background-color: #f5f5f5;
+    width: 55%;
+    margin-left: 90px;
+    border: 1px solid red;
+    border-radius: 7px;
+}
+#detailsSection > h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+.spanContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.spanContainer > span{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 40px;
+    border: 1px solid red;
+}
