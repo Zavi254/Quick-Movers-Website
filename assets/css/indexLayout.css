@@ -185,6 +185,7 @@ ul > li > a{
 .footerSection{
     display: flex;
     justify-content: space-around;
+    /* flex-wrap: wrap; */
 }
 .columnHeading > h5{
     color: white;
@@ -221,4 +222,7 @@ ul > li > a{
 }
 .border{
     border: 0.5px solid grey;
+}
+.columnHeading{
+    margin-left: 80px;
 }
