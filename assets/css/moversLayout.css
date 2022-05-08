@@ -166,6 +166,7 @@ form > input, #learnMore{
 #similarListings{
     background-color: #f5f5f5;
     padding-top: 50px;
+    padding-bottom: 70px;
 }
 .similarListingsCards{
     display: flex;
@@ -216,4 +217,51 @@ form > input, #learnMore{
     margin-left: 150px;
     margin-bottom: 10px;
     margin-top: 50px;
+}
+/* Footer Section */
+#secondPageFooter{
+    background-color: #1c1302;
+    background-image: linear-gradient(to right top, #000000, #0c0404, #150905, #1a0e04, #1c1302);
+    font-family: 'Actor', sans-serif;
+}
+#secondPageFooter > h2{
+    font-size: 2.6rem;
+    margin-bottom: 60px;
+    color: #fff;
+    font-weight: 500;
+    padding-top: 90px;
+    margin-left: 100px;
+}
+.footerSection{
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+.columnHeading > h5{
+    color: white;
+    font-size: 1.1rem;
+}
+.columnHeading > p{
+    color: white;
+    font-weight: 500;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+.icon-section{
+    display: flex;
+    gap: 20px;
+}
+.fa-twitter{
+    color: white;
+    font-size: 24px;
+}
+.fa-facebook{
+    font-size: 24px;
+    color: white;
+}.fa-instagram{
+    font-size: 24px;
+    color: white;
+}
+.footerButton{
+    color: #e48f1b;
 }
