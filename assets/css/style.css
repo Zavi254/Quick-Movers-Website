@@ -85,7 +85,7 @@ ul > li > a{
     justify-content: center;
 }
 .borderGradient{
-    border: 2px solid red;
+    border: 2px solid #1c1302;
     width: 150px;
     margin-bottom: 10px;
 }
@@ -163,16 +163,15 @@ ul > li > a{
     font-family: 'Adamina', serif;
 }
 .borderGradient2{
-    border: 2px solid red;
+    border:2px solid #1c1302;;
     width: 150px;
-    border: 2px solid red;
     width: 150px;
     margin-left: 150px;
-
 }
 /* Footer Section */
 #firstPageFooter{
     background-color: #1c1302;
+    background-image: linear-gradient(to right top, #000000, #0c0404, #150905, #1a0e04, #1c1302);
     font-family: 'Actor', sans-serif;
 }
 #firstPageFooter > h2{
