@@ -1,7 +1,7 @@
 # Introduction
     The Quick Movers is a webiste that assits people or users in moving their housegoods 
-    to other houses and also checking for vacant houses around you.
-    <img src="../assets/img/moving 1.png" alt="Getting started" />
+    to other houses and also checking for vacant houses around you
+    
 # author-name
 # project or program name
 # description of program
